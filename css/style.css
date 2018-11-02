@@ -1,0 +1,21 @@
+.c-info {
+    background: #122ab2;
+    color: #fff;
+}
+
+.c-info__container{
+    max-width: 960px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 10px;
+}
+
+.c-info__phone {
+    color: #fff;
+}
+
+.c-info__date, .c-info__phone, .c-info__address {
+    margin: 0px 10px 10px 10px;
+}
