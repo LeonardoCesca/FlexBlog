@@ -19,3 +19,42 @@
 .c-info__date, .c-info__phone, .c-info__address {
     margin: 0px 10px 10px 10px;
 }
+
+.c-header {
+    background: #2c70ff;
+}
+
+.c-header__menu {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 15px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.c-header__menu a {
+    color: white;
+}
+
+.c-header__menu a:hover {
+    color: #122ab2;
+}
+
+.c-header__logo {
+    font-size: 36px;
+    font-weight: bold;
+    margin: 0 10px;
+}
+
+.c-nav__list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.c-nav__item {
+    font-size: 20px;
+    display: flex;
+    padding: 10px;
+}
